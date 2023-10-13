@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MapGuesser</title>
+    <link rel="stylesheet" href="main.css">
+    <!-- Include your CSS file if you have one -->
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-container">
+            <h1 style="font-size: 48px;padding: 0; margin: 0;color: white;">MapGuesser</h1><button id="help-button">?</button>
+        </div>
+    </div>
+    <img id="map-image" src="">
+    <form id="guess-form">
+        <label for="Time-guess" style="color: white;">Guess the Time:</label>
+        <input type="text" id="Time-guess" autocomplete="off">
+        <button type="submit">Submit</button>
+        <span id="correct-message" style="display: none; color: green;">Correct!</span>
+        <span id="wrong-message" style="display: none; color: red;">Wrong!</span>
+        <!-- Add this element -->
+    </form>
+    <div id="result"></div>
+
+    <!-- Include your JavaScript file -->
+    <script src="game.js"></script>
+</body>
+
+</html>

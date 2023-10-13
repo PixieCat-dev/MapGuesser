@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(53, 53, 53);
+}
+
+img {
+    height: 88vh;
+    border: 3px solid black;
+}
+
+
+/* CSS to style the container */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    /* Adjust the height to control vertical centering */
+}
+
+
+/* CSS to style the header container */
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Style the question mark button */
+
+#help-button {
+    margin-left: 10px;
+    /* Add some spacing between the heading and the button */
+}
