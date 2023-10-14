@@ -1,5 +1,5 @@
 const mapDatabase = [{
-        link: 'https://s24.postimg.cc/gf4kvhrb9/europe_1900.png',
+        link: 'https://pixiecat-dev.github.io/MapGuesser/maps/ww1.png',
         Time: ['world war I', 'world war 1', 'ww1', '1918'],
     },
     {
@@ -13,6 +13,10 @@ const mapDatabase = [{
     {
         link: 'https://omniatlas-1598b.kxcdn.com/media/img/articles/complete/europe/europe18120316.jpg',
         Time: ['napoleonic wars', '1812', 'XIX', 'Napoleonic Wars'],
+    },
+    {
+        link: 'https://pixiecat-dev.github.io/MapGuesser/maps/ww2.png',
+        Time: ['ww2', 'world war 2', 'world war II', '1939'],
     },
 ];
 
